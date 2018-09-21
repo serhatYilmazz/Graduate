@@ -33,9 +33,9 @@
 	<bean id="myDataSource" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close">
         <property name="driverClassName" value="org.postgresql.Driver" />
-        <property name="url" value="jdbc:postgresql://localhost:5432/graduate" />
-        <property name="username" value="postgres" />
-        <property name="password" value="blnmzlk06" /> 
+        <property name="url" value="jdbc:postgresql://localhost:5432/" />
+        <property name="username" value="" />
+        <property name="password" value="" /> 
 	</bean>  
 	
     <!-- Step 2: Setup Hibernate session factory -->
